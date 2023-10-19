@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const books=[
+            {name:'Javascript',Author:'Euler' ,price:400},
+            {name:'PHP',Author:'Sachin kapoor' ,price:500},
+            {name:'Python',Author:'Guido Van' ,price:700},
+            {name:'Rect JS',Author:'Robbin' ,price:650},
+        ];
+
+        let searchBook='Javascript';
+
+        let book=books.filter(book=>searchBook.includes(book.name));
+        console.log(book);
+    </script>
+    
+</body>
+</html>
