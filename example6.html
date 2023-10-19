@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        let employees=[
+            {name:'Shyam' , department:'HR' ,salary:10000},
+            {name:'Harish' , department:'Developer' ,salary:60000},
+            {name:'Rakesh' ,department:'Developer' ,salary:45000},
+            {name:'Rupesh' ,department:'Sales' ,salary:30000}
+        ];
+
+        let newEmp=employees.filter(emp=>emp.department=='Developer' && emp.salary>50000);
+        console.log(newEmp);
+    </script>
+    
+</body>
+</html>
